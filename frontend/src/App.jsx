@@ -15,7 +15,7 @@ import {
   Info
 } from 'lucide-react';
 
-const API_URL = 'http://localhost:8080/bfhl';
+const API_URL = 'https://backend-qbshy8qw1-harshas-projects-ea9be1e4.vercel.app/bfhl';
 
 const TreeView = ({ data, nodeName }) => {
   const [isOpen, setIsOpen] = useState(true);
